@@ -68,10 +68,14 @@ header h2 {
   color: #666;
 }
 
+#downloads .btn:first-child {
+    margin: 0;
+}
+
 #downloads .btn {
   display: inline-block;
   text-align: center;
-  margin: 0;
+  margin: 0 0 0 10px;
 }
 
 /* Main Content
@@ -225,6 +229,17 @@ hr {
 .btn-fb .icon {
   opacity: 0.6;
   background: url("../images/fb.png") 0 0 no-repeat;
+}
+
+.btn-tw .icon {
+  opacity: 0.6;
+  background: url("../images/tw.png") 0 0 no-repeat;
+}
+
+
+
+.container .downloads .icon {
+  opacity: 1;
 }
 
 /* Links
