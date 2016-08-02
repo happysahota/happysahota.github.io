@@ -16,6 +16,10 @@ body {
   margin: 0 auto;
 }
 
+.container.body {
+    min-height: 550px;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
@@ -266,4 +270,10 @@ a {
 
 .cf {
   zoom:1;
+}
+
+footer{
+    display: table;
+    font-size: 0.8em;
+    margin: 0 auto;
 }
