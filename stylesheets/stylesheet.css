@@ -221,18 +221,20 @@ hr {
   float: left;
 }
 
+
+.btn .icon {
+    opacity: 0.6;
+}
+
 .btn-github .icon {
-  opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
+  background: url("../images/gitwa.png") 0 0 no-repeat;
 }
 
 .btn-fb .icon {
-  opacity: 0.6;
   background: url("../images/fb.png") 0 0 no-repeat;
 }
 
 .btn-tw .icon {
-  opacity: 0.6;
   background: url("../images/tw.png") 0 0 no-repeat;
 }
 
